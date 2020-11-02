@@ -1,0 +1,24 @@
+{
+  "name": "cypress-upload-file",
+  "version": "1.0.0",
+  "description": "easy upload any file using cypress",
+  "main": "app.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+  },
+  "devDependencies": {
+    "cypress": "^5.5.0",
+    "eslint": "^7.12.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-import": "^2.22.1",
+    "prettier": "^2.1.2"
+  },
+  "keywords": [
+    "cypress",
+    "upload",
+    "file"
+  ],
+  "author": "Caique Coelho",
+  "license": "ISC"
+}
