@@ -14,11 +14,19 @@
     "eslint-plugin-import": "^2.22.1",
     "prettier": "^2.1.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://https://github.com/CaiqueCoelho/cypress-upload-file"
+  },
   "keywords": [
     "cypress",
     "upload",
     "file"
   ],
+  "bugs": {
+    "url": "https://https://github.com/CaiqueCoelho/cypress-upload-file/issues"
+  },
+  "homepage": "https://github.com/CaiqueCoelho/cypress-upload-file#readme",
   "author": "Caique Coelho",
   "license": "ISC"
 }
