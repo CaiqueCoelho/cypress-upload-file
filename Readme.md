@@ -68,9 +68,9 @@ If you have any feature request just open an issue describing your request or fe
 
 ## Found an issue?
 
-Register the issue here (https://github.com/CaiqueCoelho/cypress-upload-file/issues) and wait for us to solve it as soon as possible.
+Register the issue [here](https://github.com/CaiqueCoelho/cypress-upload-file/issues) and wait for us to solve it as soon as possible.
 In addition, any contribution is welcome, so feel free to make a pull request if you want to solve any problem!
 
 ## License
 
-MIT(https://github.com/abramenal/cypress-file-upload/blob/master/LICENSE)
+[MIT](https://github.com/abramenal/cypress-file-upload/blob/master/LICENSE)
