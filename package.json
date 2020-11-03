@@ -1,6 +1,6 @@
 {
   "name": "cypress-upload-file",
-  "version": "1.0.5",
+  "version": "1.0.4",
   "description": "easy upload any file using cypress",
   "main": "app.js",
   "scripts": {
@@ -18,7 +18,6 @@
     "type": "git",
     "url": "https://https://github.com/CaiqueCoelho/cypress-upload-file"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "cypress",
     "upload",
