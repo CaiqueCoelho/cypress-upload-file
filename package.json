@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://https://github.com/CaiqueCoelho/cypress-upload-file"
+    "url": "https://https://github.com/CaiqueCoelho/cypress-upload-file"
   },
   "keywords": [
     "cypress",
@@ -24,7 +24,7 @@
     "file"
   ],
   "bugs": {
-    "url": "https://https://github.com/CaiqueCoelho/cypress-upload-file/issues"
+    "url": "https://github.com/CaiqueCoelho/cypress-upload-file/issues"
   },
   "homepage": "https://github.com/CaiqueCoelho/cypress-upload-file#readme",
   "author": "Caique Coelho",
