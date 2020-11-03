@@ -44,7 +44,7 @@ describe("Upload the file", () => {
 
 ## Documentation
 
-```bash
+```
 This function help cypress to upload a file to a file upload input
 using any type of file extension: png, jpg, jpeg, gif, pdf, svg, mp4, mp3, docx.
 You need to have your file stored in fixtures cypress directory
