@@ -1,6 +1,6 @@
 {
   "name": "cypress-upload-file",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "easy upload any file using cypress",
   "main": "app.js",
   "scripts": {
