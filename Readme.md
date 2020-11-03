@@ -3,9 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/abramenal/cypress-file-upload/blob/master/LICENSE)
 [![npm version](https://img.shields.io/npm/v/cypress-upload-file.svg?style=flat&color=important)](https://www.npmjs.com/package/cypress-upload-file)
 
-File upload testing made easy.
-
-This package adds a custom [Cypress][cypress] command that allows you to make an abstraction on how exactly you upload files through HTML controls and focus on testing user workflows.
+Upload any file quickly and easily with cypress! You only need two lines of code to upload it! This library works with cypress in version 5.5.0 and also with higher and lower versions!
 
 ## How to install
 
@@ -46,24 +44,23 @@ describe("Upload the file", () => {
 
 ## Documentation
 
-/\*\*
+```bash
+This function help cypress to upload a file to a file upload input
+using any type of file extension: png, jpg, jpeg, gif, pdf, svg, mp4, mp3, docx.
+You need to have your file stored in fixtures cypress directory
+Call this function with some selector element, with file name, and file type.
+File extension types must be input like:
+- image/png
+- image/jpeg
+- image/jpg
+- video/mp4
+- application/pdf
 
-- This function help cypress to upload a file to a file upload input
-- using any type of file extension: png, jpg, jpeg, gif, pdf, svg, mp4, mp3, docx.
-- You need to have your file stored in fixtures cypress directory
-- Call this function with some selector element, with file name, and file type.
-- File types must be input like:
-- - image/png
-- - image/jpeg
-- - image/jpg
-- - video/mp4
-- - application/pdf
--
 - @param {String} selectorElement Some selector information to find the file upload input element
 - @param {String} fileName Name of the file with with its extension, exampĺe image.png
 - @param {String} fileType The file type extension like: png, jpeg, jpg, pdf
 - @return {VoidFunction} This function don't returned anything
-  \*/
+```
 
 ## Feature Request
 
