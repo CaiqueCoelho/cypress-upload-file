@@ -29,7 +29,7 @@ describe("Upload the file", () => {
     // If yout file is inside another folder you must put the path
     // example 'folderName/blank.pdf'
     const fileName = "blank.pdf";
-    // The type extension for this file like: image/png, image/jpeg, video/mp4, application/pdf
+    // The type extension for this file like: image/png, image/jpeg, video/mp4, application/pdf, text/plain, application/json
     const fileType = "image/png";
     // Selector path to find the input element in UI that we want to upload a file, in our example the element
     // has an id name "file-upload" so we can use here "#file-upload"
@@ -55,10 +55,12 @@ File extension types must be input like:
 - image/jpg
 - video/mp4
 - application/pdf
+- application/json
+- text/plain
 
 - @param {String} selectorElement Some selector information to find the file upload input element
 - @param {String} fileName Name of the file with with its extension, exampĺe image.png
-- @param {String} fileType The file type extension like: png, jpeg, jpg, pdf
+- @param {String} fileType The file type extension like: image/png, image/jpeg, video/mp4, application/pdf, text/plain, application/json
 - @return {VoidFunction} This function don't returned anything
 ```
 

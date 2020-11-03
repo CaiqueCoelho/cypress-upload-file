@@ -11,10 +11,12 @@ import hexStringToByte from "./utils";
  * - image/jpg
  * - video/mp4
  * - application/pdf
+ * - application/json
+ * - text/plain
  *
  * @param  {String} selectorElement Some selector information to find the file upload input element
  * @param  {String} fileName Name of the file with with its extension, exampĺe image.png
- * @param {String}      fileType The file type extension like: image/png, image/jpeg, video/mp4, application/pdf
+ * @param {String}      fileType The file type extension like: image/png, image/jpeg, video/mp4, application/pdf, text/plain, application/json
  * @return {VoidFunction}      This function don't returned anything
  */
 
