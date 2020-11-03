@@ -73,4 +73,4 @@ In addition, any contribution is welcome, so feel free to make a pull request if
 
 ## License
 
-[MIT][mit]
+MIT(https://github.com/abramenal/cypress-file-upload/blob/master/LICENSE)
