@@ -57,10 +57,15 @@ File extension types must be input like:
 - application/pdf
 - application/json
 - text/plain
+- image/gif
+- text/html
+- audio/mpeg
+- audio/ogg
+- audio/mp3
 
 - @param {String} selectorElement Some selector information to find the file upload input element
 - @param {String} fileName Name of the file with with its extension, exampĺe image.png
-- @param {String} fileType The file type extension like: image/png, image/jpeg, video/mp4, application/pdf, text/plain, application/json
+- @param {String} fileType The file type extension like: image/png, image/jpeg, video/mp4, image/gif, application/pdf, text/plain, application/json, audio/mpeg
 - @return {VoidFunction} This function don't returned anything
 ```
 
