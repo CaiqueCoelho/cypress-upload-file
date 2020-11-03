@@ -16,4 +16,4 @@ function uploadFile(selectorElement, fileName, fileType) {
   });
 }
 
-module.exports = uploadFile;
+export default uploadFile;
