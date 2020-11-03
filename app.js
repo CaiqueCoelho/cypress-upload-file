@@ -2,13 +2,19 @@ import hexStringToByte from "./utils";
 
 /**
  * This function help cypress to upload a file to a file upload input
- * using any type of file extension: png, jpg, jpeg, gif, pdf, svg, mp3, docx.
- * You need to have your file stored in fixtures cypress folder
- * Call this function with some selector element, with file name, and file type
+ * using any type of file extension: png, jpg, jpeg, gif, pdf, svg, mp4, mp3, docx.
+ * You need to have your file stored in fixtures cypress directory
+ * Call this function with some selector element, with file name, and file type.
+ * File types must be input like:
+ * - image/png
+ * - image/jpeg
+ * - image/jpg
+ * - video/mp4
+ * - application/pdf
  *
  * @param  {String} selectorElement Some selector information to find the file upload input element
  * @param  {String} fileName Name of the file with with its extension, exampĺe image.png
- * @param {String}      fileType The file type extension like: png, jpeg, jpg, pdf
+ * @param {String}      fileType The file type extension like: image/png, image/jpeg, video/mp4, application/pdf
  * @return {VoidFunction}      This function don't returned anything
  */
 
